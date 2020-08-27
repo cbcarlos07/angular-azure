@@ -1,27 +1,29 @@
 # OauthOutlook
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
+Passos:
 
-## Development server
+1. Acessar com o email de corporação no Portal Azure
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+        https://portal.azure.com/
 
-## Code scaffolding
+2. Registre um aplicativo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Não esqueça de anotar 
 
-## Build
+        ID do aplicativo (cliente)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+3. Configure autenticação
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+        Adicionar o tipo de plataforma
 
-## Running end-to-end tests
+        Url de login
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+        Concessão Implícita
+                Tokens de acesso e Token ID
 
-## Further help
+        Tipos de conta com suporte
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+        
+
+
