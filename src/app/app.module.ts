@@ -24,7 +24,7 @@ const isIE = window.navigator.userAgent.indexOf("MSIE ") > -1 || window.navigato
     MsalModule.forRoot({
       auth: {
           clientId: '3bdb8c18-05c1-4491-8816-be22fc7e4c3b',
-          authority: 'https://login.microsoftonline.com/digiboard.com.br',
+          authority: 'https://login.microsoftonline.com/empresa.com.br',
           validateAuthority: true,
           redirectUri: 'http://localhost:4203/home',
           postLogoutRedirectUri: 'http://localhost:4203',
@@ -45,8 +45,7 @@ const isIE = window.navigator.userAgent.indexOf("MSIE ") > -1 || window.navigato
       ],
       unprotectedResources: ["https://www.microsoft.com/en-us/"],
       protectedResourceMap,
-      extraQueryParameters: {},
-        
+      extraQueryParameters: {},        
     },
     )
   ],
