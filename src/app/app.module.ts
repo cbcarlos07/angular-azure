@@ -22,8 +22,9 @@ const isIE = window.navigator.userAgent.indexOf("MSIE ") > -1 || window.navigato
     BrowserModule,
     AppRoutingModule,
     MsalModule.forRoot({
+      
       auth: {
-          clientId: '3bdb8c18-05c1-4491-8816-be22fc7e4c3b',
+          clientId: 'ch4v3d0C-l13n-t3qP-0ud4-4zur30000000',
           authority: 'https://login.microsoftonline.com/empresa.com.br',
           validateAuthority: true,
           redirectUri: 'http://localhost:4203/home',
@@ -41,7 +42,7 @@ const isIE = window.navigator.userAgent.indexOf("MSIE ") > -1 || window.navigato
         "user.read",
         "openid",
         "profile",
-        "api://3bdb8c18-05c1-4491-8816-be22fc7e4c3b"
+        "api://ch4v3d0C-l13n-t3qP-0ud4-4zur30000000"
       ],
       unprotectedResources: ["https://www.microsoft.com/en-us/"],
       protectedResourceMap,
